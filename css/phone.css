@@ -1,0 +1,214 @@
+@media screen and (max-width:1200px){
+    .navbar{
+        display:none;
+    }
+    #navbar{
+        display:inline-block;
+        margin-left:500px;
+        margin-top:40px;
+    }
+    nav{
+        height:180px;
+    }
+    #navbar img{
+        height:50px;
+    }
+    .logo img{
+        height:120px;
+        margin-top:15px;
+    }
+    .home::before{
+        display:none;
+    }
+    .home h1{
+        color:black;
+        width:688px;
+        font-size: 5rem;
+    }
+    .home h4{
+        color: gray;
+        font-size: 40px;
+    }
+    .home h5{
+        color: gray;
+        font-size:2.4rem;
+    }
+    .home{
+        position:absolute;
+        left:100px;
+    }
+    .button{
+        flex-direction: column;
+    }
+    .btn{
+    padding:16px 15px;
+    margin: 17px;
+    border-radius: 35px;
+    border-color: #f93939;
+    font-size: 2.8rem;
+    color:#f93939;
+    font-weight: 700;
+    margin-left: 139px;
+    width: 364px;
+    background-color: white;
+    }
+    .btn:hover{
+        padding:16px 15px;
+        margin: 17px;
+        border-radius: 35px;
+        border-color: #f93939;
+        font-size: 2.8rem;
+        color:white;
+        font-weight: 700;
+        margin-left: 139px;
+        width: 364px;
+        background-color:#f93939 ;
+        }
+    .pictures{
+        top:1000px;
+        z-index:-1;
+    }
+    #pic1{
+        left:40px;
+        height:900px;
+    }
+    #pic2{
+        right:180px;
+        top:805x;
+        height:500px;
+    }
+    .line{
+        top:1665px;
+        width:242vw;
+        left:-6px;
+    }
+    #flex{
+        position:absolute;
+        top:1734px;
+    }
+    #apph{
+        margin-left: 293px;
+        width: 366px;
+    }
+    #text1{
+        position: absolute;
+        top: 1852px;
+        left: 269px;
+}
+.text h5 {
+    font-size: 2.5rem;
+    width: 452px;
+    text-align: center;
+}
+.text h2{
+    font-size: 3.1rem;
+    text-align: center;
+}
+.text p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.img img{
+    height: 917px;
+    width: 624px;
+}
+#img1 img{
+    position: absolute;
+    top: 2200px;
+    left: 222px;
+    
+}
+#text2{
+    position: absolute;
+    top: 2972px;
+    left:269px;
+}
+#img2 img{
+    position: absolute;
+    left: 222px;
+    top:3317px;
+}
+#text3{
+    position: absolute;
+    top: 4068px;
+    left:269px;
+}
+#img3 img{
+    position: absolute;
+    left: 222px;
+    top:4408px;
+}
+#download::before{
+    display:none;
+}
+.download{
+    background-color: rgb(9, 11, 74);
+    position:absolute;
+    top:5500px;
+    position: absolute;
+    top: 5256px;
+    width: 750px;
+}
+#download h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+#download h3 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+#button{
+   flex-direction: row;
+   margin-right: 233px;
+}
+#btn{
+    padding:16px 15px;
+    margin: 14px -99px;
+    border-radius: 20px;
+    border:2px solid white;
+    font-size: 2.8rem;
+    color:white;
+    font-weight: 700;
+    margin-left: 139px;
+    width: 364px;
+    background-color: rgb(9, 11, 74);
+    }
+    #btn:hover{
+        padding:16px 15px;
+        margin: 14px -99px;
+        border-radius: 20px;
+        border-color: #f93939;
+        font-size: 2.8rem;
+        color:white;
+        font-weight: 700;
+        margin-left: 139px;
+        width: 364px;
+        background-color:#f93939 ;
+        }
+        footer{
+            position: absolute;
+            top:6150px;
+            left:283px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #logo{
+            display: none;
+        }
+        #contact{
+            margin-bottom:5px;
+        }
+        #contact img{
+            height:70px;
+            width:70px;
+        }
+        #copyright{
+            margin-bottom:100px;
+            text-align:center;
+            font-size: 1.3rem;
+        }
+}
+
+    
